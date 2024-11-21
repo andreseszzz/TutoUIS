@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"> <!-- Fondo oscuro -->
+
+    <!-- Título principal -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TutoUIS"
+        android:textSize="40sp"
+        android:textColor="#76FF03"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="8dp" /> <!-- Espacio entre título y subtítulo -->
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El apoyo que necesitas"
+        android:textSize="16sp"
+        android:textColor="#76FF03"
+        android:fontFamily="sans-serif" />
+</LinearLayout>
